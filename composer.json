@@ -9,13 +9,6 @@
             "homepage": "https://www.pixart.com.ua"
         }
     ],
-    "description": "Turbosms package for Laravel",
-    "authors": [
-        {
-            "name": "Mykola Kuzmich",
-            "email": "ua.pixart@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Uapixart\\LaravelTurbosms\\": "src/"
@@ -24,7 +17,7 @@
     "minimum-stability": "dev",
     "require": {
 		"php": ">=5.4.0",
-		"illuminate/support": "5.*"
+		"illuminate/support": ">=5.0"
 	},
     "license": "MIT"
 }
